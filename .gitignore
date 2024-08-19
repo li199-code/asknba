@@ -1,0 +1,56 @@
+# 忽略所有 node_modules 文件夹（React 前端）
+**/node_modules/
+# 忽略所有的 build 和 dist 文件夹（React 构建输出）
+**/build/
+**/dist/
+
+# 忽略 npm 和 yarn 锁文件（如果你使用 yarn）
+package-lock.json
+yarn.lock
+
+# 忽略环境变量文件
+**/.env
+
+# 忽略日志文件
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+
+# Python通用忽略规则
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+**/*.egg-info/
+**/.Python
+**/.venv/
+**/venv/
+**/env/
+**/.mypy_cache/
+**/.pytest_cache/
+
+# Flask项目相关
+instance/
+**/instance/
+*.db
+**/*.sqlite3
+**/*.log
+
+# 忽略操作系统生成的临时文件
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*~
+
+# VS Code设置文件
+.vscode/
+
+# PyCharm设置文件
+.idea/
